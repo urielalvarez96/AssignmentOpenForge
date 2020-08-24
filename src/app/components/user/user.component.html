@@ -1,0 +1,14 @@
+<ion-card color="dark" (click)="openUser()">
+  <ion-card-header>
+    <ion-card-subtitle>
+      {{user.id}}
+    </ion-card-subtitle>
+    <ion-card-title>
+      {{user.login}}
+    </ion-card-title>
+    
+  </ion-card-header>
+  <ion-img [src]="user.avatar_url"></ion-img>
+
+
+</ion-card>

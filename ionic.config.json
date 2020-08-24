@@ -1,0 +1,8 @@
+{
+  "name": "AssignmentOpenForge",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
